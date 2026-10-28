@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>内灘町地域おこし協力隊【募集】スライド</title>
+<style>
+  body {
+    margin: 0; padding: 0;
+    font-family: 'Yu Gothic', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #a7d8f4, #f4e9d8); /* 海と砂浜のイメージ */
+    color: #04395e; /* 海の深い青 */
+  }
+  .slide {
+    max-width: 900px;
+    margin: 2em auto;
+    background: rgba(255,255,255,0.85);
+    padding: 2em;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(4,57,94,0.3);
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 1.8em;
+    margin-bottom: 0.3em;
+    border-bottom: 3px solid #04395e;
+    padding-bottom: 0.3em;
+  }
+  p {
+    line-height: 1.5;
+    font-size: 1em;
+  }
+  .buttons {
+    margin-top: 2em;
+  }
+  button {
+    background-color: #0370b9;
+    color: #f4e9d8;
+    border: none;
+    padding: 0.8em 1.6em;
+    margin-right: 1em;
+    font-size: 1.1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover, button:focus {
+    background-color: #025a87;
+    outline: none;
+  }
+  /* モーダルウィンドウのスタイル */
+  .modal {
+    display: none; /* 最初非表示 */
+    position: fixed;
+    z-index: 1000;
+    left: 0; top: 0;
+    width: 100vw; height: 100vh;
+    background-color: rgba(4, 57, 94, 0.7);
+    backdrop-filter: blur(4px);
+    overflow-y: auto;
+  }
+  .modal-content {
+    background: #fffaf0;
+    margin: 5% auto;
+    padding: 1.5em 2em;
+    border-radius: 12px;
+    max-width: 600px;
+    box-shadow: 0 8px 20px rgba(4,57,94,0.3);
+    position: relative;
+    color: #04395e;
+  }
+  .modal-content h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #0370b9;
+    padding-bottom: 0.3em;
+  }
+  .modal-content p {
+    margin-bottom: 1em;
+  }
+  .close-btn {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    background: #0370b9;
+    color: #f4e9d8;
+    border: none;
+    font-size: 1.4em;
+    line-height: 1;
+    padding: 0.2em 0.6em;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .close-btn:hover, .close-btn:focus {
+    background: #025a87;
+    outline:none;
+  }
+</style>
+</head>
+<body>
+  <section class="slide" role="main" aria-label="内灘町地域おこし協力隊募集案内">
+    <h1>内灘町地域おこし協力隊【募集】</h1>
+    <p>ページID：0025625　更新日：2026年7月17日更新</p>
+    <p>内灘町は海・夕陽・牧場・温泉・河北潟・県内でも有数の大きな公園などが揃ったポテンシャルの高い町です。地域の魅力を発掘し、全国にPRする仲間を募集します。</p>
+
+    <div class="buttons">
+      <button id="btnDetails" aria-haspopup="dialog" aria-controls="modalDetails">募集内容を詳しく見る</button>
+      <button id="btnConditions" aria-haspopup="dialog" aria-controls="modalConditions">応募条件を見る</button>
+    </div>
+  </section>
+
+  <!-- モーダル1：募集内容 -->
+  <div id="modalDetails" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalDetailsTitle" tabindex="-1">
+    <div class="modal-content">
+      <button class="close-btn" aria-label="募集内容のモーダルを閉じる">&times;</button>
+      <h2 id="modalDetailsTitle">募集内容・活動例</h2>
+      <p><strong>募集人数：</strong>1名</p>
+      <p><strong>活動内容：</strong></p>
+      <ul>
+        <li>観光、商工業、農業等の振興に係る活動</li>
+        <li>地域資源の発掘及び振興に係る活動</li>
+        <li>地域の情報発信に係る活動</li>
+        <li>本町への移住及び定住の促進に係る活動</li>
+      </ul>
+      <p><strong>具体的な活動例：</strong></p>
+      <ul>
+        <li>観光諸団体の強化や連携（観光協会事務局）、DMOの立ち上げ</li>
+        <li>「ミルク王国ウチナダ」ブランドの広告やイベント企画支援</li>
+        <li>海を使ったイベント企画立案・支援</li>
+        <li>内灘産商品のブランド化、新しい価値創出の支援</li>
+        <li>SNS、動画サイト、Webマガジンでの情報発信</li>
+        <li>その他地域おこし活動の提案・実施</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- モーダル2：応募条件 -->
+  <div id="modalConditions" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalConditionsTitle" tabindex="-1">
+    <div class="modal-content">
+      <button class="close-btn" aria-label="応募条件のモーダルを閉じる">&times;</button>
+      <h2 id="modalConditionsTitle">応募条件・労働条件等</h2>
+      <p><strong>応募条件：</strong></p>
+      <ul>
+        <li>都市地域等に居住、または地域おこし協力隊員として2年以上の経験があり離職1年以内の方</li>
+        <li>委嘱後に内灘町へ転入し居住できる方</li>
+        <li>25歳以上50歳未満（令和8年10月1日時点）</li>
+        <li>活動終了後、定住・就労・起業の意向がある方</li>
+        <li>普通自動車運転免許保持者（取得見込み含む）</li>
+        <li>国内居住、日本語能力必須</li>
+      </ul>
+      <p><strong>労働条件・福利厚生：</strong></p>
+      <ul>
+        <li>任用形態：内灘町長が委嘱（雇用関係なし）</li>
+        <li>委嘱期間：1年以内、最大3年まで再任可能</li>
+        <li>委託費：月額166,000円</li>
+        <li>活動時間：月128時間程度</li>
+        <li>住居補助：月40,000円まで</li>
+        <li>交通費補助：月20,000円</li>
+        <li>通信費補助：月5,000円まで</li>
+        <li>兼業可能（活動に支障なければ）</li>
+      </ul>
+    </div>
+  </div>
+
+<script>
+  // モーダルの開閉操作
+  const btnDetails = document.getElementById('btnDetails');
+  const btnConditions = document.getElementById('btnConditions');
+  const modalDetails = document.getElementById('modalDetails');
+  const modalConditions = document.getElementById('modalConditions');
+  const modals = [modalDetails, modalConditions];
+
+  function openModal(modal) {
+    modal.style.display = 'block';
+    modal.focus();
+  }
+  function closeModal(modal) {
+    modal.style.display = 'none';
+  }
+
+  btnDetails.addEventListener('click', () => openModal(modalDetails));
+  btnConditions.addEventListener('click', () => openModal(modalConditions));
+
+  modals.forEach(modal => {
+    const closeBtn = modal.querySelector('.close-btn');
+    closeBtn.addEventListener('click', () => closeModal(modal));
+
+    // モーダルの背景クリックでも閉じる
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) closeModal(modal);
+    });
+
+    // Escapeキーで閉じる
+    modal.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal(modal);
+    });
+  });
+</script>
+</body>
+</html>
